@@ -1,0 +1,29 @@
+.scrollable-column {
+  overflow-y: auto;
+  border: 1px solid #ddd; /* Optional border for visual separation */
+  
+}
+
+
+.scrollable-column::-webkit-scrollbar {  /* Chrome & Safari */
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+.scrollable-column::-webkit-scrollbar-thumb {
+  background-color: #ddd;  /* Adjust color as needed */
+  border-radius: 10px;  /* Set the border radius */
+}
+
+.scrollable-column::-moz-scrollbar {  /* Firefox */
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+.scrollable-column::-moz-scrollbar-thumb {
+  background-color: #ddd;  /* Adjust color as needed */
+  border-radius: 10px;  /* Set the border radius */
+}
+

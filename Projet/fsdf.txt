@@ -1,0 +1,18 @@
+send mila potsirina indro (nodemon tokony velona foana)	
+
+reset calendar each switch (pas de colore sur calendrier)
+pas de "calculate distance" =>auto
+waiting boriboyr	
+use my location
+1 jour doit etre avec un seul click
+tsy maintsy feno ny case rehetre
+alert2
+posiny calendrier mois mivilana
+ovaina a ho lasa link ny cart
+verifiena daholy ny sary ao @ engindetail page fa misy ngeza b
+nom et prix dans BD
+
+
+FFC800
+
+remember this: const enginDetail2 = JSON.parse(localStorage.getItem('enginDetail2')); (store in the browser, can be accessed by any component)

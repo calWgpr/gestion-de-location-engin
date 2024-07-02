@@ -1,0 +1,28 @@
+#container {
+    background-color: #E9E9E9;
+
+
+}
+#container2{
+ width: fit-content;
+  overflow: hidden;
+  text-overflow: ellipsis;  /* Add ellipsis for overflowing content */
+width:100%
+}
+.thicker-shadow {
+  box-shadow: 2px 2px 6px 0.5px rgba(0, 0, 0, 0.2); /* Adjust values for desired effect */
+}
+/* #demo{
+  width: 30%;
+} */
+.btn{
+  width: 20%;
+  
+}
+#start{
+  align-items: flex-start
+}
+
+
+
+

@@ -1,0 +1,53 @@
+.container{
+    border: 10px black;
+    
+}
+.is-valid, .is-invalid {
+  border-bottom: 3px solid ; /* Adjust color and thickness as needed */
+}
+
+/* #lastName{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+    border-bottom: 2px solid;
+} */
+
+.form-control:focus {
+  border-bottom: 1px solid #ccc; /* Adjust color and thickness as needed */
+  outline: none; /* Still included for some browsers */
+}
+
+.form-control:focus {
+  outline: 0; /* Ensures outline removal across browsers */
+}
+#imgh{
+  height: 150px;
+  width: 150px;
+  align-self: center;
+}
+input{
+  display: inline-block;
+}
+#edit,#save{
+  margin-right: 10px;
+  border: none;
+  color: #ccc;
+  border-radius: 100px;
+  margin-bottom: 5px;
+}
+#name,#name1,#name2,#name3,#name4 {
+  border: none;
+  border-bottom: 1px solid #ccc; /* Adjust color and thickness as needed */
+  padding: 5px 10px; /* Adjust padding if needed */
+  outline: none; /* Remove default outline on focus */
+  margin-bottom: 20px;
+}
+.input-container {
+  display: flex;
+  align-items: center; /* Vertically align icon and input */
+}
+#name:focus,#name1:focus,#name2:focus,#name3:focus,#name4:focus {
+  box-shadow: none; /* Prevent default focus shadow (optional) */
+}
+

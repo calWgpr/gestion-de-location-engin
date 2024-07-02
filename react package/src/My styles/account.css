@@ -1,0 +1,64 @@
+.scrollable-column {
+  overflow-y: auto;
+  border: 1px solid #ddd; /* Optional border for visual separation */
+  
+}
+#userinfo{
+  position: fixed;
+  top: 60px;
+  right: 0;
+    width: 20%;
+    z-index: 100;
+height: 10px;
+} 
+#enter{
+  width: 25px;
+}
+
+
+#mbtn{
+  border: none;
+  margin: 0;
+  width: 30px;
+  position: relative;
+  top:-25px ;
+  right: -930px;
+}
+#mbtn:hover{
+  color: #ffc800;
+  cursor: pointer;
+}
+.c{
+  margin-bottom: 0px;
+}
+#ct,#ct1,#refused{
+  height: 550px;
+}
+
+.scrollable-column::-webkit-scrollbar {  /* Chrome & Safari */
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+.scrollable-column::-webkit-scrollbar-thumb {
+  background-color: #ddd;  /* Adjust color as needed */
+  border-radius: 10px;  /* Set the border radius */
+}
+
+.scrollable-column::-moz-scrollbar {  /* Firefox */
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+.scrollable-column::-moz-scrollbar-thumb {
+  background-color: #ddd;  /* Adjust color as needed */
+  border-radius: 10px;  /* Set the border radius */
+}
+#uc{
+  display: none;
+}
+#x{
+  margin-bottom: 500px;
+}
